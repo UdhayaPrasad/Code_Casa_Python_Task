@@ -58,8 +58,8 @@ def create_details():
 
 def SendMail(subject, message):
    try:
-      sender_mail="Udhay2024@outlook.com"
-      password='Shiva@2024'
+      sender_mail="Your Outlook Id"
+      password='Your Password'
       reciever_mail=input("Enter the mail id of the student:")  
       Message=message
       m=MIMEText(Message)
